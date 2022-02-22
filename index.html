@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./test.html">
+        <p>Name 
+           <input type="text" name="name" required>
+       </p>
+        <p>Email Address 
+            <input type="email" name="email" required>
+        </p>
+        <p> Password
+         <input type="password" name="password"required>
+        </p>
+        <p>
+            Language 
+            <p>
+                <input type="radio" name="language" value="react"> React <br>
+                <input type="radio" name="language" value="angular"> Angular <br>
+                <input type="radio" name="language" value="vue"> Vue 
+            </p>
+        </p>
+        <p>
+            Course
+            <p>
+                <input type="checkbox" value="mern" >
+                 MERN <br>
+                <input type="checkbox" value="mean">
+                 MEAN <br>
+                <input type="checkbox" value="mevn">
+                MEVN
+            </p>
+        </p>
+        <p>
+            Field: <br>
+            <select name="field" >
+                <option value="frontend"> Front End
+
+                </option>
+
+                <option value="backend">Back End
+
+                </option>
+                <option value="fullstack">Full Stack
+
+                </option>
+            </select>
+        </p>
+        <label for="self">Write about yourself</label> <br>
+        <textarea name="description" id="self" cols="30" rows="10"></textarea>
+        <p>
+            Phone Number <input type="number" name="phonenumber">
+            <input type="submit">
+        </p>
+        <h1>TABLES</h1>
+        <p>
+            <a href="./table.html">click here</a>
+        </p>
+    </form>
+</body>
+</html>
